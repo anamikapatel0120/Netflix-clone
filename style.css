@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #131212a9;
+}
+
+html{
+    font-size: 1vw;
+}
+
+.hero-icon{
+    /* background-color: #131212a9; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* box-shadow: h-offset v-offset blur spread color; */
+    background: rgb(0 0 0 / 40%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 1rem 1rem 50rem 15rem;
+    /* box-shadow: inset -3rem -3rem 0.3rem 3rem; */
+}
+
+.top{
+    height: 10vh;
+    width: 80vw;
+    background-color: transparent;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    color: red;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: transparent;
+}
+
+.pop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 2rem;
+}
+
+.lang{
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    border: 0.02rem solid #ccc;
+    height: 2.1rem;
+    width: 7.7rem;
+    text-align: center;
+}
+
+.btn1{
+    background-color: red;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    border: none;
+    height: 2.15rem;
+    width: 5rem;
+    margin-left: 1.45rem;
+} 
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(205, 0, 0);
+}
+
+.first-block{
+    height: 60vh;
+    width: 70vw;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    margin-top: 10rem;
+}
+
+.image{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: url(background_image.jpg);
+    background-size: cover;
+}
+
+.line1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+    background-color: transparent;
+}
+
+.line2{
+    font-size: 1.8rem;
+    color: white;
+    background-color: transparent;
+}
+
+.line3{
+    font-size: 1.55rem;
+    color: white;
+    background-color: transparent;
+}
+
+.input{
+    background-color: transparent;
+    height: 3.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none;
+    height: 3.7rem;
+    width: 14.3rem;
+    margin-left: 0.5rem;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(205, 0, 0);
+}
+
+
+#phldr{
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 0.02rem solid #ccc;
+    height: 3.4rem;
+    width: 25.5rem;
+    padding-left: 1rem;
+}
+
+.sec-block{
+    height: 78vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-block{
+    height: 78vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-block{
+    height: 78vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: transparent;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    color: white;
+    margin-right: 3rem;
+    background-color: transparent;
+    width: 40vw;
+}
+
+.lne1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    background-color: transparent;
+}
+
+.lne2{
+    font-size: 1.6rem;
+    background-color: transparent;
+}
+
+.img1{
+    background-image: url(im_1.png);
+    background-size: cover;
+    height: 30rem;
+    width: 41rem;
+    background-color: transparent;
+    margin-left: 2rem;
+}
+
+.img2{
+    background-image: url(im_2.png);
+    background-size: cover;
+    height: 30rem;
+    width: 41rem;
+    background-color: transparent;
+    margin-right: 2rem;
+}
+
+.img3{
+    background-image: url(im_5.png);
+    background-size: cover;
+    height: 30rem;
+    width: 41rem;
+    background-color: transparent;
+    margin-left: 2rem;
+}
+
+.footer-content{
+    margin-left: 0.5rem;
+    background-color: black;
+}
+
+.footer{
+    height: 60vh;
+    width: 65vw;
+    background-color: black;
+    margin-left: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    gap: 1.5rem;
+    margin-left: 10rem;
+}
+.customer-care{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+#num{
+    background-color: transparent;
+    text-decoration: underline;
+    padding-left: 0.5rem;
+}
+#num:hover{
+    cursor: pointer;
+}
+#cust-care{
+    background-color: transparent;
+}
+.footer-element{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 1rem;
+}
+#anchor{
+    background-color: transparent;
+}
+#anchor:hover{
+    cursor: pointer;
+}
+.Netflix-India{
+    font-size: 1rem;
+    background-color: transparent;
+}
+.lang-key{
+    background-color: transparent;
+}
+.language{
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    border: 0.02rem solid #ccc;
+    height: 1.8rem;
+    width: 7.5rem;
+    text-align: center;
+}
+
+@media (max-width:450px) {
+    .hero-icon{
+        height: 55vh;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .para{
+        width: 70vw;
+    }
+    .lne1{
+        font-size: 6rem;
+        padding-left: 6rem;
+        line-height: 8rem;
+    }
+    .lne2{
+        font-size: 4rem;
+        padding-left: 6rem;
+    }
+
+    .line1{
+        font-size: 8rem;
+        line-height: 9rem;
+    }
+    .line2{
+        font-size: 5rem;
+    }
+    .line3{
+        font-size: 4rem;
+    }
+    .input{
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 12rem;
+    }
+    .first-block{
+        margin-top: 30rem;
+        height: 9vh;
+        width: 90vw;
+    }
+    .sec-block{
+        height: 60vh;
+    }
+    .third-block{
+        height: 60vh;
+    }
+    .fourth-block{
+        height: 60vh;
+    }
+
+    #phldr{
+        font-size: 4rem;
+        height: 18rem;
+        width: 50rem;
+    }
+    #btn{
+        font-size: 5rem;
+        height: 18rem;
+        width: 32rem;
+    }
+
+    .top{
+        margin-top: 4rem;
+    }
+    #name{
+        font-size: 8rem;
+        margin-bottom: 3rem;
+    }
+    .pop{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    .lang{
+        height: 5rem;
+        width: 20rem;
+        font-size: 4rem;
+    }
+    .btn1{
+        height: 5rem;
+        width: 15rem;
+        font-size: 3.5rem;
+    }
+
+    .footer{
+        height: 50vh;
+        width: 90vw;
+        margin-left: 5rem;
+        gap: 3rem;
+    }
+
+    .customer-care{
+        font-size: 3.8rem;
+        line-height: 6rem;
+    }
+    .footer-element{
+        font-size: 3.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .element4{
+        padding-right: 9.5rem;
+    }
+    .language{
+        font-size: 3.4rem;
+        height: 5rem;
+        width: 25rem;
+    }
+    .Netflix-India{
+        font-size: 3.4rem;
+    }
+}
